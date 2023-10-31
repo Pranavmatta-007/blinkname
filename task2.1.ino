@@ -4,7 +4,7 @@ bool buttonPressed = false;
 
 void setup() {
   pinMode(ledPin, OUTPUT);
-  pinMode(pushpin, INPUT_PULLUP);  // Enable internal pull-up resistor for the button
+  pinMode(pushpin, INPUT);  // Enable internal pull-up resistor for the button
   Serial.begin(9600);
 }
 
